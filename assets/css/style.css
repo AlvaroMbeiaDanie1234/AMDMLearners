@@ -1,0 +1,388 @@
+
+
+.cabecalho{
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.23em;
+    color: #fff;
+    background-color: #2D5377;
+}
+
+.cabecalho_logo{
+    padding: 1.5em 0;
+    width: 14.5em;
+}
+
+.cabecalho_menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    background-color: #272B3A87;
+}
+
+.cabecalho_item{
+    display: inline-block;
+}
+
+.cabecalho_item a{
+    display: inline-block;
+    padding: 1.70em 1.92em;
+    font-size: 12px;
+    transition: background-color 2s;
+}
+
+
+.cabecalho_item a:hover{
+    background-color: oldlace;
+}
+
+.title-v2{
+    font-size: 22px;
+
+}
+
+.mae{
+    text-align: center;
+    box-shadow: 1px 1px 3px gray;
+    font-size: 19px;
+
+    }
+
+
+
+
+hgroup#imagens img{
+    width: 200px;
+
+
+}
+
+hgroup#TOPS img{
+    width: 160px;
+    border-radius: 1px 1px 3px;
+    box-shadow: 1px 2px 10px;
+}
+
+
+
+
+
+
+/* Conteudo principal */
+
+main {
+    display: block;
+    background-color: white;
+    width: 450px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 1px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.529);
+}
+
+h1 {
+    color: darkgoldenrod;
+}
+
+h2 {
+    color: rgb(125, 92, 8);
+}
+
+aside {
+    display: block; 
+    font-size: 10pt;
+    text-align: justify;
+    background-color: rgb(222, 222, 222);
+    padding: 10px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+aside img {
+    width: 60px; 
+    display: block; 
+    float: left;
+    margin-right: 10px;
+}
+
+a, a:visited {
+    color: rgb(34, 34, 34);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*Pricing Section Css*/
+.pricingSection {
+    background-color: #f9f9f9;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 60px; 
+    margin-bottom: 50px; 
+}
+
+/*---
+    Pricing
+---*/
+.pricing-v9 {
+    border: 1px solid #eef2f7;
+}
+.pricing-v9:hover {
+    box-shadow: 0 0 15px #ddd;
+}
+.pricing-v9-head {
+    border-bottom: 1px solid #eef2f7;
+}
+.pricing-v9-head h3 {
+    margin: 0;
+}
+.pricing-v9 ul {
+    margin: 0;
+}
+.pricing-v9 li {
+    margin-bottom: 5px;
+}
+.pricing-v9-price,
+.pricing-v9-footer,
+.pricing-v9 ul,
+.pricing-v9-head {
+    padding: 20px 15px;
+}
+.pricing-v9-price,
+.pricing-v9-footer {
+    border-top: 1px solid #eef2f7;
+}
+.pricing-v9-price {
+    font-weight: 500;
+}
+.h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+.hover-effect {
+ transition: all 0.4s ease-in-out;
+}
+
+.g-color-default { color: #72c02c;}
+.color-green { color: #72c02c;}
+
+
+
+
+
+
+@media(min-width: 640px){
+.cabecalho{
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+.cabecalho_logo{
+    padding: 2.5em 0;
+}
+
+@media (min-width: 770px){
+    .titulo{
+        margin: 10px;
+        font-size: 35px;
+    }
+    .cabecalho_menu{
+        margin-left: 1.42em;
+
+        border-radius: 6px;
+        background-color: #e93d50;
+    }
+
+
+body{
+    font-family: montserrat;
+}
+
+.cabecalho_item a{
+    padding: 1.8em 3.5em;
+    color: black;
+    transition: background-color 2s;
+    text-decoration: none;
+
+
+}
+
+.cabecalho_item a:hover{
+    background-color: oldlace;
+}
+
+
+
+nav{
+    background: #001721;
+    height: 70px;
+    width: 100%;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 2px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 22px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: whitesmoke;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+
+
+
+.mae{
+    text-align: center;
+    box-shadow: 1px 1px 3px gray;
+
+}
+
+
+
+
+/* Conteudo principal */
+
+main {
+    background-color: white;
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.529);
+}
+
+h1 {
+    color: darkgoldenrod;
+}
+
+h2 {
+    color: rgb(125, 92, 8);
+}
+
+aside {
+    display: block; 
+    font-size: 10pt;
+    text-align: justify;
+    background-color: rgb(222, 222, 222);
+    padding: 10px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+
+aside img {
+    width: 60px; 
+    display: block; 
+    float: left;
+    margin-right: 10px;
+}
+
+a, a:visited {
+    color: rgb(34, 34, 34);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+
+
+
+
+
+/*Pricing Section Css*/
+.pricingSection {
+    background-color: #f9f9f9;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 60px; 
+    margin-bottom: 50px; 
+}
+
+/*---
+    Pricing
+---*/
+.pricing-v9 {
+    border: 1px solid #eef2f7;
+}
+.pricing-v9:hover {
+    box-shadow: 0 0 15px #ddd;
+}
+.pricing-v9-head {
+    border-bottom: 1px solid #eef2f7;
+}
+.pricing-v9-head h3 {
+    margin: 0;
+}
+.pricing-v9 ul {
+    margin: 0;
+}
+.pricing-v9 li {
+    margin-bottom: 5px;
+}
+.pricing-v9-price,
+.pricing-v9-footer,
+.pricing-v9 ul,
+.pricing-v9-head {
+    padding: 20px 15px;
+}
+.pricing-v9-price,
+.pricing-v9-footer {
+    border-top: 1px solid #eef2f7;
+}
+.pricing-v9-price {
+    font-weight: 500;
+}
+.h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+.hover-effect {
+ transition: all 0.4s ease-in-out;
+}
+
+.g-color-default { color: #72c02c;}
+.color-green { color: #72c02c;}
+
+
+hgroup#imagens img{
+    width: 200px;
+
+}
